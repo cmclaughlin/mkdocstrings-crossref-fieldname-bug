@@ -7,4 +7,7 @@ class BrokenExample:
     """ Broken Example class"""
 
     Tag: Tag
-    """ This crossref does not work. The field name matches the field type. """
+    """
+    This crossref does not work. The field name matches the field type.
+    - Link to [`class_attribute`][class_attribute]
+    """

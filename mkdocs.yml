@@ -16,3 +16,4 @@ plugins:
             separate_signature: true
             show_signature_annotations: true
             signature_crossrefs: true
+            relative_crossrefs: true
