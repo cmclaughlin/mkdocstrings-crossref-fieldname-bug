@@ -1,8 +1,6 @@
-from __future__ import annotations
-
 from fieldname_bug_example.Tag import Tag
 
-from typing import List
+from __future__ import annotations
 
 @dataclass
 class BrokenExample:
