@@ -1,0 +1,18 @@
+site_name: mkdocstrings-crossref-fieldname-bug
+theme:
+  name: material
+plugins:
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          load_external_modules: true
+          options:
+            show_bases: false
+            show_source: false
+            show_root_toc_entry: false
+            show_symbol_type_heading: false
+            show_labels: false
+            separate_signature: true
+            show_signature_annotations: true
+            signature_crossrefs: true
